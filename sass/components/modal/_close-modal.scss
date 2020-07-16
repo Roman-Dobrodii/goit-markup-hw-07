@@ -8,16 +8,16 @@
   padding: 6px 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--title-white-color);
+  background-color: $title-white-color;
   cursor: pointer;
 }
 .icon-close {
   margin: auto;
   width: 18px;
   height: 18px;
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
 }
 .close-modal:hover .icon-close,
 .close-modal:focus .icon-close {
-  fill: var(--accent);
+  fill: $accent;
 }

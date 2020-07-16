@@ -982,26 +982,26 @@ address {
   margin-right: 8px;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid #212121;
   border-radius: 2px;
 }
 
 .checkbox:checked + .checkbox-icon {
-  border-color: var(--accent);
-  background-color: var(--accent);
+  border-color: #2196f3;
+  background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
 
 .check-text {
-  color: var(--title-text-color);
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .check-text a {
-  color: var(--accent);
+  color: #2196f3;
   text-decoration: underline;
 }
 
@@ -1017,7 +1017,7 @@ address {
   padding: 6px 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--title-white-color);
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -1025,12 +1025,12 @@ address {
   margin: auto;
   width: 18px;
   height: 18px;
-  fill: var(--primary-text-color);
+  fill: #212121;
 }
 
 .close-modal:hover .icon-close,
 .close-modal:focus .icon-close {
-  fill: var(--accent);
+  fill: #2196f3;
 }
 
 .call-modal {
@@ -1039,7 +1039,7 @@ address {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  color: var(--primary-text-color);
+  color: #212121;
   cursor: default;
 }
 
@@ -1054,16 +1054,16 @@ address {
   padding-left: 42px;
   width: 100%;
   height: 40px;
-  border: 1px solid var(--input-backdrop-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition: border 250ms var(--time-function);
-  transition: border 250ms var(--time-function);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus,
 .form-field:not(:placeholder-shown) {
   outline: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid #2196f3;
 }
 
 .label-title {
@@ -1076,11 +1076,11 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--title-text-color);
-  -webkit-transition: top 250ms var(--time-function), left 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: top 250ms var(--time-function), left 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: transform 250ms var(--time-function), top 250ms var(--time-function), left 250ms var(--time-function);
-  transition: transform 250ms var(--time-function), top 250ms var(--time-function), left 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
+  color: #757575;
+  -webkit-transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1), left 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1), left 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), top 250ms cubic-bezier(0.4, 0, 0.2, 1), left 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), top 250ms cubic-bezier(0.4, 0, 0.2, 1), left 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus + .label-title,
@@ -1089,7 +1089,7 @@ address {
   left: 16px;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
-  color: var(--accent);
+  color: #2196f3;
 }
 
 .icon-input {
@@ -1101,14 +1101,14 @@ address {
   display: inline-block;
   width: 18px;
   height: 18px;
-  fill: var(--primary-text-color);
-  -webkit-transition: fill 250ms var(--time-function);
-  transition: fill 250ms var(--time-function);
+  fill: #212121;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus ~ .icon-input,
 .form-field:not(:placeholder-shown) ~ .input-icon {
-  fill: var(--accent);
+  fill: #2196f3;
 }
 
 .form-field-comment {
@@ -1127,11 +1127,11 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--title-text-color);
-  -webkit-transition: top 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: top 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: transform 250ms var(--time-function), top 250ms var(--time-function);
-  transition: transform 250ms var(--time-function), top 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
+  color: #757575;
+  -webkit-transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), top 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), top 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment:focus + .textarea-title,
@@ -1139,24 +1139,24 @@ address {
   top: -20px;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
-  color: var(--accent);
+  color: #2196f3;
 }
 
 .comment {
   display: block;
   padding: 12px 16px;
   width: 100%;
-  border: 1px solid var(--input-backdrop-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  -webkit-transition: border 250ms var(--time-function);
-  transition: border 250ms var(--time-function);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment:focus,
 .comment:not(:placeholder-shown) {
   outline: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid #2196f3;
 }
 
 .send {
@@ -1164,8 +1164,8 @@ address {
   border: 1px solid transparent;
   min-width: 200px;
   padding: 10px 55px;
-  background-color: var(--accent);
-  color: var(--title-white-color);
+  background-color: #2196f3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -1175,10 +1175,10 @@ address {
   border-radius: 4px;
   cursor: pointer;
   outline: none;
-  -webkit-transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send:hover,
@@ -1198,11 +1198,11 @@ address {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--backdrop-bg-color);
+  background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
-  -webkit-transition: opacity 250ms var(--time-function), visibility 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), visibility 250ms var(--time-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -1226,14 +1226,14 @@ address {
   min-height: 581px;
   padding: 40px;
   border-radius: 4px;
-  background-color: var(--title-white-color);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   text-align: center;
-  -webkit-transition: -webkit-transform 250ms var(--time-function);
-  transition: -webkit-transform 250ms var(--time-function);
-  transition: transform 250ms var(--time-function);
-  transition: transform 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter {
