@@ -1,0 +1,36 @@
+.work {
+  padding-bottom: 94px;
+}
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+.work-list .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+.work-list .work-item {
+  position: relative;
+}
+.work-title {
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.work-text-white {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: var(--title-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
