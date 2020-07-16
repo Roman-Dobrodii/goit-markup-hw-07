@@ -775,7 +775,7 @@ img {
 }
 
 footer {
-  background-color: var(--footer-bg-color);
+  background-color: #2f303a;
 }
 
 .logo-footer {
@@ -812,14 +812,14 @@ address {
 
 .adress-title {
   margin-bottom: 9px;
-  color: var(--title-white-color);
+  color: #ffffff;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .contact {
-  color: var(--footer-text-color);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
@@ -832,7 +832,7 @@ address {
 
 .join-title {
   display: block;
-  color: var(--title-white-color);
+  color: #ffffff;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -872,7 +872,7 @@ address {
   height: 50px;
   margin-right: 12px;
   padding: 15px 16px;
-  background-color: var(--footer-bg-color);
+  background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -881,18 +881,18 @@ address {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .input-footer:focus,
 .input-footer:active {
   outline: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid #2196f3;
 }
 
 .subscribe-title {
   display: block;
-  color: var(--title-white-color);
+  color: #ffffff;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -907,8 +907,8 @@ address {
   border: 1px solid transparent;
   min-width: 200px;
   padding: 10px 29px;
-  background-color: var(--accent);
-  color: var(--title-white-color);
+  background-color: #2196f3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -921,10 +921,10 @@ address {
   border-radius: 4px;
   cursor: pointer;
   outline: none;
-  -webkit-transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-footer:hover,

@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--footer-bg-color);
+  background-color: $footer-bg-color;
 }
 .logo-footer {
   display: block;
@@ -22,13 +22,13 @@ address {
 }
 .adress-title {
   margin-bottom: 9px;
-  color: var(--title-white-color);
+  color: $title-white-color;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .contact {
-  color: var(--footer-text-color);
+  color: $footer-text-color;
   margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
@@ -40,7 +40,7 @@ address {
 
 .join-title {
   display: block;
-  color: var(--title-white-color);
+  color: $title-white-color;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -66,7 +66,7 @@ address {
   height: 50px;
   margin-right: 12px;
   padding: 15px 16px;
-  background-color: var(--footer-bg-color);
+  background-color: $footer-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -74,16 +74,16 @@ address {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: var(--footer-text-color);
+  color: $footer-text-color;
 }
 .input-footer:focus,
 .input-footer:active {
   outline: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid $accent;
 }
 .subscribe-title {
   display: block;
-  color: var(--title-white-color);
+  color: $title-white-color;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -96,8 +96,8 @@ address {
   border: 1px solid transparent;
   min-width: 200px;
   padding: 10px 29px;
-  background-color: var(--accent);
-  color: var(--title-white-color);
+  background-color: $accent;
+  color: $title-white-color;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -107,7 +107,7 @@ address {
   border-radius: 4px;
   cursor: pointer;
   outline: none;
-  transition: box-shadow 250ms var(--time-function);
+  transition: box-shadow 250ms $time-function;
 }
 .button-footer:hover,
 .button-footer:focus {
