@@ -19,11 +19,11 @@
 .team-item-info {
   text-align: center;
   padding: 30px 32px 24px;
-  background: var(--title-white-color);
+  background: $title-white-color;
 }
 .team-title {
   margin-bottom: 50px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -31,14 +31,14 @@
 }
 .team-list-item {
   margin-bottom: 10px;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 .team-text {
   margin-bottom: 16px;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -52,8 +52,8 @@
   height: 44px;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--icon-color);
-  transition: background-color 250ms var(--time-function);
+  color: $icon-color;
+  transition: background-color 250ms $time-function;
 }
 .social-list .item:not(:last-child) {
   margin-right: 10px;
@@ -62,22 +62,22 @@
 .social-list .social-link:focus,
 .join-list .social-link:hover,
 .join-list .social-link:focus {
-  background-color: var(--accent);
+  background-color: $accent;
 }
 .social-list .social-link:hover .social-icon,
 .social-list .social .link:focus .social-icon {
-  fill: var(--title-white-color);
+  fill: $title-white-color;
 }
 .social-icon {
   margin: auto;
   width: 20px;
   height: 20px;
   fill: currentColor;
-  transition: fill 250ms var(--time-function);
+  transition: fill 250ms $time-function;
 }
 .join .social-link {
-  background-color: var(--footer-bg-socicon);
+  background-color: $footer-bg-socicon;
 }
 .join .social-icon {
-  fill: var(--title-white-color);
+  fill: $title-white-color;
 }
