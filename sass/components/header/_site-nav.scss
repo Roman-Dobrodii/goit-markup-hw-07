@@ -15,24 +15,26 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms $time-function;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: $accent;
+
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
 }
 .site-nav .link.current {
   position: relative;
   color: $accent;
-}
-.site-nav .link.current::after {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background-color: $accent;
-  border-radius: 2px;
+
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $accent;
+    border-radius: 2px;
+  }
 }
 .header-contacts {
   display: flex;
@@ -57,11 +59,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms $time-function;
-}
 
-.contact-nav:hover,
-.contact-nav:focus {
-  color: $accent;
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
 }
 .nav-icon {
   margin-right: 10px;

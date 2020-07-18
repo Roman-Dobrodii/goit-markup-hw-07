@@ -46,6 +46,9 @@
   display: flex;
   justify-content: center;
 }
+.social-list .item:not(:last-child) {
+  margin-right: 10px;
+}
 .social-link {
   display: inline-flex;
   width: 44px;
@@ -54,30 +57,22 @@
   cursor: pointer;
   color: $icon-color;
   transition: background-color 250ms $time-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent;
+  }
 }
-.social-list .item:not(:last-child) {
-  margin-right: 10px;
-}
-.social-list .social-link:hover,
-.social-list .social-link:focus,
-.join-list .social-link:hover,
-.join-list .social-link:focus {
-  background-color: $accent;
-}
-.social-list .social-link:hover .social-icon,
-.social-list .social .link:focus .social-icon {
-  fill: $title-white-color;
-}
+
 .social-icon {
   margin: auto;
   width: 20px;
   height: 20px;
   fill: currentColor;
   transition: fill 250ms $time-function;
-}
-.join .social-link {
-  background-color: $footer-bg-socicon;
-}
-.join .social-icon {
-  fill: $title-white-color;
+
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: $title-white-color;
+  }
 }

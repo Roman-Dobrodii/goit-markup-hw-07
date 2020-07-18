@@ -25,6 +25,11 @@
   border-radius: 4px;
   text-align: center;
   transition: border 250ms $time-function;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent;
+  }
 }
 .clients-link {
   display: inline-flex;
@@ -38,12 +43,9 @@
   margin: auto;
   fill: currentColor;
   transition: fill 250ms $time-function;
-}
-.clients-item:hover,
-.clients-item:focus {
-  border: 1px solid $accent;
-}
-.clients-list .clients-link:hover .clients-icon,
-.clients-list .clients-link:focus .clients-icon {
-  fill: $accent;
+
+  .clients-list .clients-link:hover &,
+  .clients-list .clients-link:focus & {
+    fill: $accent;
+  }
 }

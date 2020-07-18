@@ -16,8 +16,9 @@
   width: 18px;
   height: 18px;
   fill: $primary-text-color;
-}
-.close-modal:hover .icon-close,
-.close-modal:focus .icon-close {
-  fill: $accent;
+
+  .close-modal:hover &,
+  .close-modal:focus & {
+    fill: $accent;
+  }
 }
