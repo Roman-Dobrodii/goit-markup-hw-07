@@ -4,6 +4,14 @@
 }
 .functions-list {
   display: flex;
+
+  & .item {
+    display: block;
+    width: calc((100% - 90px) / 4);
+  }
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .icon-frame {
   display: inline-flex;
@@ -19,13 +27,7 @@
   width: 70px;
   height: 70px;
 }
-.functions-list .item {
-  display: block;
-  width: calc((100% - 90px) / 4);
-}
-.functions-list .item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .functions-title {
   margin-bottom: 10px;
   color: $primary-text-color;

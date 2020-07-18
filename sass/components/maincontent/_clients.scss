@@ -8,9 +8,6 @@
 .clients-list {
   display: flex;
 }
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .clients-item {
   display: block;
@@ -24,6 +21,9 @@
   &:hover,
   &:focus {
     border: 1px solid $accent;
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
 .clients-link {

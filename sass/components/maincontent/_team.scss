@@ -9,10 +9,12 @@
 .team-list {
   display: flex;
   justify-content: space-between;
+
+  & .team-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.team-list .team-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .team-item {
   border-radius: 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -40,10 +42,12 @@
 .social-list {
   display: flex;
   justify-content: center;
+
+  & .item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.social-list .item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .social-link {
   display: inline-flex;
   width: 44px;

@@ -53,10 +53,11 @@ address {
   & .social-link:focus {
     background-color: $accent;
   }
+  & .item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.join-list .item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .join .social-link {
   background-color: $footer-bg-socicon;
 }

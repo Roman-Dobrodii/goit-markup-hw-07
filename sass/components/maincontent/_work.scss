@@ -2,17 +2,18 @@
   padding-bottom: 94px;
 }
 .work-title {
-  @extend %title-swction;
+  @extend %title-section;
 }
 .work-list {
   display: flex;
   justify-content: space-between;
-}
-.work-list .work-item:not(:last-child) {
-  margin-right: 30px;
-}
-.work-list .work-item {
-  position: relative;
+
+  & .work-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  & .work-item {
+    position: relative;
+  }
 }
 
 .work-text-white {
