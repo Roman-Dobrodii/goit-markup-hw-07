@@ -3,6 +3,9 @@
   padding-bottom: 94px;
   background-color: $secondary-bg-color;
 }
+.team-title {
+  @extend %title-section;
+}
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -20,14 +23,6 @@
   text-align: center;
   padding: 30px 32px 24px;
   background: $title-white-color;
-}
-.team-title {
-  margin-bottom: 50px;
-  color: $primary-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 .team-list-item {
   margin-bottom: 10px;

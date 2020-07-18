@@ -3,12 +3,7 @@
   padding-bottom: 94px;
 }
 .clients-title {
-  margin-bottom: 50px;
-  color: $primary-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+  @extend %title-section;
 }
 .clients-list {
   display: flex;

@@ -1,6 +1,9 @@
 .work {
   padding-bottom: 94px;
 }
+.work-title {
+  @extend %title-swction;
+}
 .work-list {
   display: flex;
   justify-content: space-between;
@@ -11,14 +14,7 @@
 .work-list .work-item {
   position: relative;
 }
-.work-title {
-  margin-bottom: 50px;
-  color: $primary-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
+
 .work-text-white {
   position: absolute;
   right: 0;
